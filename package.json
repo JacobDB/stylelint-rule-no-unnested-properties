@@ -1,0 +1,37 @@
+{
+    "name": "stylelint-rule-no-unnested-properties",
+    "version": "0.0.1",
+    "description": "Stylelint plugin to require all properties within a top-level rule to be nested within & { ... }",
+    "homepage": "https://github.com/JacobDB/stylelint-rule-no-unnested-properties",
+    "author": {
+        "name": "Jacob Bearce",
+        "email": "jacob@bearce.me",
+        "url": "https://www.bearce.me/"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JacobDB/stylelint-rule-no-unnested-properties.git"
+    },
+    "bugs": {
+        "url": "https://github.com/JacobDB/stylelint-rule-no-unnested-properties/issues",
+        "email": "jacob@bearce.me"
+    },
+    "main": "index.js",
+    "keywords": [
+        "stylelint-plugin",
+        "stylelint",
+        "sass",
+        "scss",
+        "css",
+        "nested",
+        "nesting",
+        "nest"
+    ],
+    "dependencies": {
+        "stylelint": "^7.10.1"
+    },
+    "devDependencies": {
+        "stylelint-rule-tester": "^0.6.2"
+    }
+}
